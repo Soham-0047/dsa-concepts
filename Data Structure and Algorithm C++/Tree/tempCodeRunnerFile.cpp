@@ -1,0 +1,1 @@
+ head = inode(head,32);
