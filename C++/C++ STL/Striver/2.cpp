@@ -41,7 +41,8 @@ void loopFunction(int n){
 }
 
 int main(){
-    // Integer, float, double, long long as data type size
+
+    // integer, float, double, long long as data type size
     // string name;
     // getline(cin,name);
     // cout<<name;
@@ -69,6 +70,13 @@ int main(){
     //     cout<<"Run Once"<<i<<endl;
     //     i++;
     // }while(i<=8);
+
+    //parameterized
+    // copy by value and reference
+
+    int min1;
+    min1 = min(4,5);
+    cout<<min1<<endl;
 
     return 0;
 }
