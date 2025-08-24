@@ -59,19 +59,41 @@ void patter6(int n){
 void patter7(int n){
      for(int i=1;i<=n;i++){
         cout<<endl;
-        for(int j=1;j<=i;j++){
-            cout<<j<<" ";
+        for(int j=n;j>=i;j--){
+            cout<<n-j+1<<" ";
         }
+     }
+}
+
+void patter8(int n){
+    for(int i=0;i<n;i++){
+
+        for(int j=0;j<n-i-1;j++){
+            cout<<" ";
+        }
+
+        for(int j=0;j<2*i+1;j++){
+            cout<<"*";
+        }
+
+         for(int j=0;j<n-i-1;j++){
+            cout<<" ";
+        }
+
+        cout<<endl;
+
     }
 }
 
 
-
+void patter9(int n) {
+    
+}
 int main(){
 
     int n = 5;
     // patter1(n);
-    patter7(n);
+    patter8(n);
 
 
 return 0;
